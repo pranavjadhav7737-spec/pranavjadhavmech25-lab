@@ -80,7 +80,7 @@
     </div></section>
 
     <section class="contact" id="contact"><div class="wrap contact-inner">
-      <div><div class="section-kicker">Have a project in mind?</div><h2>Let’s make<br>it happen.</h2><p>Send a few details and I’ll get back to you about your design enquiry.</p><a class="contact-mail" href="mailto:paranavjadhav7737@gmail.com">paranavjadhav7737@gmail.com</a></div>
+      <div><div class="section-kicker">Have a project in mind?</div><h2>Let’s make<br>it happen.</h2><p>Send a few details and I’ll get back to you about your design enquiry.</p><a class="contact-mail" href="mailto:pranavjadhav7737@gmail.com">pranavjadhav7737@gmail.com</a></div>
       <form class="form" id="enquiryForm">
         <label>Your name<input name="name" autocomplete="name" required placeholder="Name"></label>
         <label>What do you need?<select name="service" required><option value="" disabled selected>Select a design service</option><option>Logo and brand identity</option><option>Social media design</option><option>Poster or flyer</option><option>Packaging or label</option><option>Other design enquiry</option></select></label>
@@ -91,14 +91,14 @@
     </div></section>
   </main>
 
-  <footer><div class="wrap footer-row"><div><div class="footer-brand">Pranav Graphics</div><div>Independent visual design studio</div></div><div class="footer-links"><a href="#work">Work</a><a href="#services">Services</a><a href="#contact">Enquire</a><a href="mailto:paranavjadhav7737@gmail.com">Email</a></div><div>© <span id="year"></span> Pranav Graphics</div></div></footer>
+  <footer><div class="wrap footer-row"><div><div class="footer-brand">Pranav Graphics</div><div>Independent visual design studio</div></div><div class="footer-links"><a href="#work">Work</a><a href="#services">Services</a><a href="#contact">Enquire</a><a href="mailto:pranavjadhav7737@gmail.com">Email</a></div><div>© <span id="year"></span> Pranav Graphics</div></div></footer>
   <script>
     const menuButton=document.querySelector('.menu');
     const nav=document.querySelector('.nav');
     menuButton.addEventListener('click',()=>{const open=nav.classList.toggle('open');menuButton.setAttribute('aria-expanded',String(open));menuButton.textContent=open?'×':'☰';});
     nav.querySelectorAll('a').forEach(link=>link.addEventListener('click',()=>{nav.classList.remove('open');menuButton.setAttribute('aria-expanded','false');menuButton.textContent='☰';}));
     document.getElementById('year').textContent=new Date().getFullYear();
-    document.getElementById('enquiryForm').addEventListener('submit',event=>{event.preventDefault();const data=new FormData(event.currentTarget);const subject=encodeURIComponent('Design enquiry — '+data.get('service'));const body=encodeURIComponent(`Name: ${data.get('name')}\nService: ${data.get('service')}\n\nProject details:\n${data.get('details')}`);window.location.href=`mailto:paranavjadhav7737@gmail.com?subject=${subject}&body=${body}`;});
+    document.getElementById('enquiryForm').addEventListener('submit',event=>{event.preventDefault();const data=new FormData(event.currentTarget);const subject=encodeURIComponent('Design enquiry — '+data.get('service'));const body=encodeURIComponent(`Name: ${data.get('name')}\nService: ${data.get('service')}\n\nProject details:\n${data.get('details')}`);window.location.href=`mailto:pranavjadhav7737@gmail.com?subject=${subject}&body=${body}`;});
   </script>
 </body>
 </html>
