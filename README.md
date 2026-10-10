@@ -10,7 +10,7 @@ https://pranavjadhav7737-spec.github.io/pranavjadhavmech25-lab/
 
 ## Contact form
 
-The enquiry form opens the visitor’s email application and prepares a message to `paranavjadhav7737@gmail.com`. It does not store submissions on a server.
+The enquiry form opens the visitor’s email application and prepares a message to `pranavjadhav7737@gmail.com`. It does not store submissions on a server.
 
 ## Files
 
